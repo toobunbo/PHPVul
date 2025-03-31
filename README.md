@@ -15,7 +15,7 @@ Nôm na thì **Phar (PHP Archive)** nó là 1 định dạng tệp kiểu .zip,.
   ![image](https://github.com/user-attachments/assets/65b08bc7-eb66-4a41-9de9-f1faff272207)
 - Giải thích đơn giản thì ở câu này ta upload file (ví dụ là hehe.php) và server sẽ mã hoá md5(hehe.php) == siganture thì thực thi file
 - Ta có thể thấy việc so sánh "==" được diễn ra ở *__destruct* --một magic method (nghe quen chứ) :grinning:
-- So sánh "==" thì khá dễ để bypass (một ông anh đẹp trai nào đó gửi tôi bảng này) ![Goat](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)
+- So sánh "==" thì khá dễ để bypass (một ông anh đẹp trai nào đó gửi tôi bảng này) :goat:
   ![image](https://github.com/user-attachments/assets/adc75c58-b28f-48ea-87d7-dad3dc9bba46)
 - Vì tôi sẽ upload file *shell.php* để khai thác pass nên chuyện gì xảy ra nếu tôi đổi *Siganture = true* (theo cái bảng thì **md5(shell.php) == true** return *true* ... chắc chắn rồi)
 - Chuyện cần làm bây giờ chỉ là xào lại cái code mẫu ở trên
